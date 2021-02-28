@@ -1,0 +1,246 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --cream: #F9F6F1;
+    --white: #ffffff;
+    --accent: #D7B399;
+    --black: #212121;
+    --silver: #F4F4F4;
+    --grey: #CBCFD4;
+}
+
+li {
+    list-style-type: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.button {
+    text-transform: uppercase;
+    color: var(--white);
+    font-weight: 400;
+    padding: 18px 30px;
+    background-color: var(--accent);
+    border-radius: 0;
+    transition: .1s;
+    border: 0;
+}
+
+.button:hover {
+    background-color: var(--accent);
+    border-color: var(--accent);    
+    transform: scale(1.05);
+}
+
+.header {
+    background-color: var(--cream);
+    padding: 56px 0 200px;
+}
+
+.header-suptitle {
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 55px;
+    text-transform: uppercase;
+    margin: 35px 0 55px;
+}
+
+.navbar {
+    padding-bottom: 167px;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.shoe-price {
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: right;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+
+.old-price {
+    font-size: 24px;
+    text-decoration: line-through;
+}
+
+.new-price {
+    color: #D84033;
+    font-size: 42px;
+}
+
+.shiping {
+    padding: 80px 0 60px;
+    background-color: var(--black);
+    color: var(--white);
+}
+
+.shiping-title {
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.shiping-desc {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+.shiping-span {
+    font-weight: 700;
+}
+
+.bg-cream {
+    background-color: var(--cream);
+}
+
+.bg-silver {
+    background-color: var(--silver);
+}
+
+.collection-item {
+    position: relative;
+    padding: 50px 0 50px 20px;
+}
+
+.collection-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.collection-title {
+    font-size: 24px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.collection-span {
+    font-weight: 500;
+}
+
+.collection-desc {
+    padding: 20px 0 25px;
+}
+
+.collection-button {
+    padding: 7px 35px;
+}
+
+.catalog-item {
+    position: relative;
+}
+
+.catalog-desc {
+    font-size: 21;
+    font-weight: 300;
+    text-transform: uppercase;
+    position: absolute;
+    left: 30px;
+    bottom: 20px;
+}
+
+.models {
+    padding: 150px 0;
+}
+
+.models-row {
+    padding: 100px 0;
+}
+
+.models-title {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.models-name {
+    font-weight: 600;
+    font-size: 14px;
+    padding: 20px 0 15px;
+}
+
+.models-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--accent);
+}
+
+.models-button img {
+    padding-left: 10px;
+}
+
+.subscribe {
+    padding: 30px 0;
+    background-color: var(--black);
+    color: var(--white);   
+}
+
+.subscribe-title {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+
+.subscribe-button {
+    font-weight: 500;
+    font-size: 14px;
+    padding: 10px 18px;
+}
+
+.form-control {
+    width: 255px;
+    border-radius: 0;
+}
+
+.footer {
+    padding: 50px 0;
+    background-color: var(--black);
+    color: var(--white);     
+}
+
+.footer-desc {
+    max-width: 200px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 10px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+.footer-li {
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--grey); 
+    padding-bottom: 10px;
+}
+
+.footer-li img {
+    padding-right: 10px;
+}
+
+@media (max-width: 1200px) {
+    .shoe-price-img {
+        display: none;
+    }
+    .shoe-price {
+        display: none;
+    }
+    .header-main {
+        text-align: center;
+    }
+}
